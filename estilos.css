@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+.topo {
+  padding: 15px;
+}
+body {
+  background-color: rgb(235, 235, 235);
+}
+
+section#escreva {
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.digitar {
+  border-radius: 20cap;
+  padding: 4px;
+  width: 70%;
+}
+.botao {
+  background-color: rgb(49, 54, 49);
+  color: white;
+  padding: 2px;
+  font-size: small;
+}
+.letra {
+  color: rgb(43, 43, 42);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  justify-content: center;
+  display: flex;
+}
+#cepResultado {
+  padding: 0;
+}
+.dentro {
+  padding: 10px;
+}
+table {
+  margin-left: 30%;
+}
