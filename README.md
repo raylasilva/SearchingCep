@@ -1,4 +1,6 @@
-🌟 SearchingCep
+🌟SearchingCep
+
+
 O SearchingCep é um site para buscar informações sobre o CEP digitado. Utilizando HTML, CSS e JavaScript, o projeto consome a API do ViaCEP para fornecer dados sobre endereços brasileiros.
 
 🚀 Funcionalidades
