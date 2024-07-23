@@ -1,0 +1,57 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscar CEP</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <div id="inicio">
+        <marquee class="topo" bgcolor="green" direction="right">
+          <h1>Digite o CEP logo abaixo</h1>
+          <br />
+        </marquee>
+      </div>
+    </header>
+
+    <main>
+      <section id="escreva">
+        <form id="cepForm">
+          <span>
+            <input
+              class="digitar"
+              id="cepInput"
+              type="number"
+              oninput="validateInputLength(this, 8)"
+            />
+            <button class="botao" type="submit">Buscar</button>
+          </span>
+        </form>
+      </section>
+
+      <section id="resultado">
+        <span>
+          <h3 class="letra">Resultado:</h3>
+          <br />
+          <table id="cepResultado" border="1">
+            <tbody>
+              <tr>
+                <th class="dentro">CEP</th>
+                <th class="dentro">Logradouro</th>
+                <th class="dentro">Cidade</th>
+                <th class="dentro">UF</th>
+                <th class="dentro">IBGE</th>
+                <th class="dentro">DDD</th>
+                <th class="dentro">SIAFI</th>
+              </tr>
+            </tbody>
+          </table>
+        </span>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
