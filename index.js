@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
               <td>${dados.uf}</td>
               <td>${dados.ibge}</td>
               <td>${dados.ddd}</td>
-              <td>${dados.siafi}</td>
+             
             </tr>
             
             `;
