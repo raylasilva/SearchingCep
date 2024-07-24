@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+.topo {
+  padding: 15px;
+}
+body {
+  background-color: rgb(235, 235, 235);
+}
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 900px) {
+  header {
+  }
+  .dentro {
+    padding: 2px;
+    font-size: 10px;
+  }
+  .digitar {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 20cap;
+    padding: 4px;
+  }
+  .botao {
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    display: flex;
+  }
+  .letra {
+    padding: 4px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 5%;
+  }
+  #cepResultado {
+    position: relative;
+    display: inline-table;
+    margin-left: 8%;
+    margin-right: 8%;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+section#escreva {
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.digitar {
+  border-radius: 20cap;
+  padding: 4px;
+  width: 70%;
+}
+.botao {
+  background-color: rgb(49, 54, 49);
+  color: white;
+  padding: 2px;
+  font-size: small;
+}
+.letra {
+  color: rgb(43, 43, 42);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  justify-content: center;
+  display: flex;
+}
+#cepResultado {
+  padding: 0;
+}
+.dentro {
+  padding: 10px;
+}
+table {
+  margin-left: 35%;
+}
